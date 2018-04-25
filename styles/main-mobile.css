@@ -5,15 +5,15 @@
     grid-template-areas:    "header"
                             "imglogo"
                             "cont"
-                            ". . ."
+                            "."
                             "cont1"
-                            ". . ."
+                            "."
                             "cont2"
-                            ". . ."
+                            "."
                             "cont3"
-                            ". . ."
+                            "."
                             "cont4"
-                            ". . ."
+                            "."
                             "footer";
                             grid-row-gap: 3px;
                             grid-column-gap: 3px;}
