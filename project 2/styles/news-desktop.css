@@ -1,0 +1,19 @@
+.grid {
+    margin:0;
+    grid-template-rows:  0.1fr 1fr 2fr 0.5fr 2fr 0.5fr 2fr  0.5fr  ;
+    grid-template-columns: 1fr 2fr 1fr ;
+    grid-template-areas:"header header header"
+                        ". imglogo ."
+                        ". cont ."
+                        ". . ."
+                        ". cont1 ."
+                        ". . ."
+                        ". cont2 ."
+                        "footer footer footer";
+                        grid-row-gap: 50px;
+                        grid-column-gap: 7px;}
+.header {   grid-template-rows:  0.1fr;
+            grid-template-columns: 1fr 1fr  1fr;
+            grid-template-areas:"img . menua";
+                        grid-row-gap: 7px;
+                        grid-column-gap: 7px;}

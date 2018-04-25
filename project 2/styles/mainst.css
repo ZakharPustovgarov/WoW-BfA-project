@@ -1,0 +1,5 @@
+@import url(main-desktop.css) (min-width:1024px);
+@import url(main-mobile.css) (max-width:1023px);
+ div.inf {background-image: url(../assests/9W8MM2AWQXJP1517267972036-1050x525.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;}

@@ -1,0 +1,121 @@
+@import url(about-desktop.css) (min-width:1024px);
+@import url(about-mobile.css) (max-width:1023px);
+html { background: rgb(12, 31, 49) ; /* Цвет фона веб-страницы,
+    путь к графическому файлу с фоном и
+    повторение фона по вертикали */
+}
+
+.grid {display: grid;}
+.header {grid-area: header;
+    margin: 0;
+    height: 70px;
+    width:100%;
+    background: linear-gradient(rgb(18, 45, 71),rgb(12, 31, 49)); 
+    position: fixed;
+    border: 3px solid black;
+    border-radius: 6px;}
+
+.imglogo   {grid-area:imglogo; }  
+
+.footer {grid-area: footer;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background: none;
+        width:1050px;
+        color: whitesmoke;
+        text-shadow: 3px 3px 5px black,-3px -3px 5px black,0px 2px 5px black,2px 0px 5px black,-2px 0px 5px black,0px -2px 5px black,-2px 2px 5px black,2px -2px 5px black;
+        font-size: 15px;}
+.footer p{font-size: 15px;}
+.footer a{font-size: 15px;}
+
+div.inf{grid-area:cont;
+        display: flex;
+        flex-direction: column; width:1050px;
+        height:525px;
+        background-repeat: no-repeat;
+        border: 4px solid black;
+        border-radius: 6px;}
+
+div.inf1{grid-area:cont1;
+        display: flex;
+        flex-direction: column;
+         width:1050px;
+        height:590px;
+        background-repeat: no-repeat;
+        border: 4px solid black;
+        border-radius: 6px;}
+
+div.inf1 table tr td h1 + div{display: none}
+
+div.inf1 table tr td h1:hover + div{display: flex;
+                                position: absolute;
+                                }
+
+div.inf2{grid-area:cont2;
+        display: flex;
+        flex-direction: column; width:1050px;
+        height:525px;
+        background-repeat: no-repeat;
+        border: 4px solid black;
+        border-radius: 6px;}
+
+div.cont3{grid-area:cont3;
+        display: flex;
+        flex-direction: column;
+        width:1050px;
+        height:950px;
+        border: 4px solid black;
+        background-color: #3f180f;
+        border-radius: 6px;}
+
+
+div.cont4{grid-area:cont4;
+        display: flex;
+        flex-direction: column;
+        width:1050px;
+        height:650px;
+        border: 4px solid black;
+        background-color: #3f180f;
+        border-radius: 6px;}
+
+div p {
+    padding: 3px;
+    font-size: 30px;
+    color: whitesmoke;
+    text-shadow: 3px 3px 5px black,-3px -3px 5px black,0px 2px 5px black,2px 0px 5px black,-2px 0px 5px black,0px -2px 5px black,-2px 2px 5px black,2px -2px 5px black;}
+div h1 {margin: 6px;
+        color: whitesmoke;
+        text-shadow: 3px 3px 5px black,-3px -3px 5px black,0px 2px 5px black,2px 0px 5px black,-2px 0px 5px black,0px -2px 5px black,-2px 2px 5px black,2px -2px 5px black;}
+div h2 {margin: 6px;
+        color: whitesmoke;
+        text-shadow: 3px 3px 5px black,-3px -3px 5px black,0px 2px 5px black,2px 0px 5px black,-2px 0px 5px black,0px -2px 5px black,-2px 2px 5px black,2px -2px 5px black;}
+
+.imgfloat {float:right;}
+
+div.menua   {grid-area: menua;
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+            margin:1;
+            height: 70px;}
+div.menua div   {display: flex;
+                flex-direction: column-reverse;
+                justify-content: center;
+                margin-left: -3px;
+                width:  90px;
+                height: 100%;
+                border-left: 4px solid ;
+                border-right: 4px solid;
+                border-color:rgba(0,0,0,0.2)}
+div.menua div a  { display: block;
+                align-self: center;
+                text-align: center;
+                height: 100%;
+                text-decoration: none;
+                color: whitesmoke;
+                font-family: sans-serif;
+                font-size: 20px ;}
+
+div.menua div:hover {border-left: 4px solid black;
+                border-right: 4px solid black;}
