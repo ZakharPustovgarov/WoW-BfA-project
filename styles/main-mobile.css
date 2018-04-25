@@ -1,16 +1,19 @@
 .container {
     margin:0;
-    grid-template-rows:  1.5fr 1fr 4fr 4fr 4fr 4fr 4fr 4fr 1fr 1fr  ;
+    grid-template-rows:  0.1fr 1fr 2fr 0.5fr 2fr 0.5fr 2fr 0.5fr 2fr 0.5fr 2fr 0.5fr  ;
     grid-template-columns: 1fr ;
     grid-template-areas:    "header"
-                            "menu"
+                            "imglogo"
+                            "cont"
+                            ". . ."
                             "cont1"
+                            ". . ."
                             "cont2"
+                            ". . ."
                             "cont3"
+                            ". . ."
                             "cont4"
-                            "cont5"
-                            "cont6"
-                            "menuf"
+                            ". . ."
                             "footer";
                             grid-row-gap: 3px;
                             grid-column-gap: 3px;}
