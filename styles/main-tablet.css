@@ -18,7 +18,7 @@
                             grid-row-gap: 3px;
                             grid-column-gap: 3px;}
 .header {   grid-template-rows:  0.1fr;
-            grid-template-columns: 1fr 3fr;
-            grid-template-areas:"img menua";
+            grid-template-columns: 1fr 1fr 2fr;
+            grid-template-areas:"img . menua";
                         grid-row-gap: 7px;
                         grid-column-gap: 7px;}

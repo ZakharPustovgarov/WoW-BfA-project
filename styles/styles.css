@@ -1,14 +1,10 @@
-html { background: black url(../assests/Безымянный.png) repeat-y; /* Цвет фона веб-страницы,
-        путь к графическому файлу с фоном и
-        повторение фона по вертикали */
+html { background: black url(../assests/Безымянный.png) repeat-y; 
+
     }
     body {
-        background: url(../assests/12345.png) repeat-y 100% 0; /* Путь к графическому файлу с фоном,
-                                                                повторение фона по вертикали,
-                                                                расположение картинки по 
-                                                                правому краю окна браузера */
-        margin: 0; /* Обнуляем отступы на странице */
-        height: 100%; /* Высота элемента */
+        background: url(../assests/12345.png) repeat-y 100% 0;
+        margin: 0; 
+        height: 100%; 
        }
     .grid {display: grid;}
     .header {grid-area: header;
@@ -18,97 +14,10 @@ html { background: black url(../assests/Безымянный.png) repeat-y; /* �
         background: linear-gradient(#3f180f,#200c08); 
         position: fixed;
         border: 3px solid black;
-        border-radius: 6px;}
-    
-    .imglogo   {grid-area:imglogo; }  
-    
-    div.footer {grid-area: footer;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            background: none;
-            width:1050px;
-            color: whitesmoke;
-            text-shadow: 3px 3px 5px black,-3px -3px 5px black,0px 2px 5px black,2px 0px 5px black,-2px 0px 5px black,0px -2px 5px black,-2px 2px 5px black,2px -2px 5px black;
-            font-size: 15px;}
-    .footer p{font-size: 15px;}
-    .footer a{font-size: 15px;}
-    
-    div.inf{grid-area:cont;
-            display: flex;
-            flex-direction: column; 
-            width:100%;
-            box-sizing: content-box;
-            background-repeat: no-repeat;
-            border: 4px solid black;
-            border-radius: 6px;
-            background: linear-gradient(#3f180f,#200c08)}
-    
-    div.inf1{grid-area:cont1;
-            display: flex;
-            flex-direction: column;
-            width:100%;
-            background-repeat: no-repeat;
-            border: 4px solid black;
-            border-radius: 6px;
-            background: linear-gradient(#3f180f,#200c08)}
-    
-    div.inf1 table tr td h1 + div{display: none}
-    div.inf1 table tr td h1 + div img{border: 4px solid black;}
-    div.inf1 table tr td h1 + div div {display: flex;flex-direction: row;}
-    div.inf1 table tr td h1 + div div.names{ width:500px;
-                                            display:flex;
-                                            justify-content: center;}
-    
-    
-    div.inf1 table tr td h1:hover + div{display: flex;
-                                    flex-direction: column;
-                                    position: absolute;
-                                    left: 200px;
-                                    border:4px solid black;
-                                    background: linear-gradient(#3f180f,#200c08)}
-    
-    div.inf2{grid-area:cont2;
-            display: flex;
-            flex-direction: column; 
-            width:100%;
-            background-repeat: no-repeat;
-            border: 4px solid black;
-            border-radius: 6px;
-            background: linear-gradient(#3f180f,#200c08)}
-    
-    div.cont3{grid-area:cont3;
-            display: flex;
-            flex-direction: column;
-            width:100%;
-            border: 4px solid black;
-            background: linear-gradient(#3f180f,#200c08);
-            border-radius: 6px;}
-    
-    
-    div.cont4{grid-area:cont4;
-            display: flex;
-            flex-direction: column;
-            width:100%;
-            border: 4px solid black;
-            background: linear-gradient(#3f180f,#200c08);
-            border-radius: 6px;}
-    
-    div p {
-        padding: 3px;
-        font-size: 30px;
-        color: whitesmoke;
-        text-shadow: 3px 3px 5px black,-3px -3px 5px black,0px 2px 5px black,2px 0px 5px black,-2px 0px 5px black,0px -2px 5px black,-2px 2px 5px black,2px -2px 5px black;}
-    div h1 {margin: 6px;
-            color: whitesmoke;
-            text-shadow: 3px 3px 5px black,-3px -3px 5px black,0px 2px 5px black,2px 0px 5px black,-2px 0px 5px black,0px -2px 5px black,-2px 2px 5px black,2px -2px 5px black;}
-    div h2 {margin: 6px;
-            color: whitesmoke;
-            text-shadow: 3px 3px 5px black,-3px -3px 5px black,0px 2px 5px black,2px 0px 5px black,-2px 0px 5px black,0px -2px 5px black,-2px 2px 5px black,2px -2px 5px black;}
-    
-    .imgfloat {float:right;}
-    
-    div.menua   {grid-area: menua;
+        border-radius: 6px;
+        z-index: 5;}
+
+        div.menua   {grid-area: menua;
                 display: flex;
                 flex-direction: row;
                 justify-content: flex-end;
@@ -117,8 +26,7 @@ html { background: black url(../assests/Безымянный.png) repeat-y; /* �
     div.menua div   {display: flex;
                     flex-direction: column-reverse;
                     justify-content: center;
-                    margin-left: -3px;
-                    width:  90px;
+                    width:  50%;
                     height: 100%;
                     border-left: 4px solid ;
                     border-right: 4px solid;
@@ -134,3 +42,39 @@ html { background: black url(../assests/Безымянный.png) repeat-y; /* �
     
     div.menua div:hover {border-left: 4px solid black;
                     border-right: 4px solid black;}
+    
+    .imglogo   {grid-area:imglogo; }  
+    
+    div.footer {grid-area: footer;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background: none;
+            width:100%;
+            color: whitesmoke;
+            text-shadow: 3px 3px 5px black,-3px -3px 5px black,0px 2px 5px black,2px 0px 5px black,-2px 0px 5px black,0px -2px 5px black,-2px 2px 5px black,2px -2px 5px black;
+    }
+
+
+    div.cont{display: flex;
+        flex-direction: column; 
+        width:100%;
+        background-repeat: no-repeat;
+        border: 4px solid black;
+        border-radius: 6px;
+        background: linear-gradient(#3f180f,#200c08)}
+    
+    div.inf{grid-area:cont;}
+    
+    div.inf1{grid-area:cont1;}
+    
+    div.inf2{grid-area:cont2;}
+    
+    div.inf3{grid-area:cont3;}
+    
+    div.inf4{grid-area:cont4;}
+    
+       
+    .imgfloat {float:right;}
+    
+   
