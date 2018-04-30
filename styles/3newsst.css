@@ -1,0 +1,10 @@
+@import url(3news-desktop.css) (min-device-width: 1024px);
+@import url(3news-desktop.css) (min-width:1024px);
+@import url(3news-tablet.css) (max-width:1023px) and (min-width:768px); 
+@import url(3news-tablet.css) (min-device-width: 768px) and (max-device-width: 1023px);
+@import url(3news-mobile.css) (max-width:767px);
+@import url(3news-mobile.css) (max-device-width: 767px);
+div.cont  {padding:2%;}
+div.cont div img {width: 46%;height: auto;}
+.video {align-self: center; margin-top: 2%; width:80%; height: auto;}
+.video iframe { width:1000; height:650; }

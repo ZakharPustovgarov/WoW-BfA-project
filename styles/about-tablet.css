@@ -1,0 +1,17 @@
+.grid {display:grid;
+    margin:0;
+    grid-template-rows:   1fr 120fr 3fr 1fr ;
+    grid-template-columns: 1fr ;
+    grid-template-areas:    "header"
+                            "cont"
+                            "cont1"  
+                            "footer";
+                            grid-row-gap: 20%;
+                            grid-column-gap: 0;}
+.header {grid-template-rows:  1fr 1fr;
+                grid-template-columns: 1fr 1fr 2fr;
+                grid-template-areas:". img ."
+                                "menua menua menua"; 
+                grid-row-gap: 7px;
+                grid-column-gap: 7px;}
+        .ablogo{float:right;}

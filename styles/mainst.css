@@ -1,6 +1,11 @@
-@import url(main-desktop.css) (min-width:1024px);
-@import url(main-tablet.css) (max-width:1023px);
-@import url(main-mobile.css) (max-width:768px);
+
+ @import url(main-desktop.css) (min-device-width: 1024px);
+ @import url(main-desktop.css) (min-width:1024px);
+ @import url(main-tablet.css) (max-width:1023px) and (min-width:768px); 
+ @import url(main-tablet.css) (min-device-width: 768px) and (max-device-width: 1023px);
+ @import url(main-mobile.css) (max-width:767px);
+ @import url(main-mobile.css) (max-device-width: 767px);
+
 @keyframes anim1 { 
         from {background-image: url(../assests/sl_N_06_19.jpg);}
         50% {background-image: url(../assests/sl_N_06_28.jpg);}
@@ -13,23 +18,34 @@
         to {background-image: url(../assests/BKJ2XYS3YIXF1509567053378.jpg);}
     
 }
- div.inf {background-image: url(../assests/9W8MM2AWQXJP1517267972036-1050x525.jpg);
-        background-size: 100%;
+div.inf {background-image: url(../assests/9W8MM2AWQXJP1517267972036-1050x525.jpg);
+        background-size: cover;
         background-repeat: no-repeat;
-        height: 48%}
+        height: 32%}
 div.inf1 {background-image: url(../assests/295-abeeb77e8dbc1721c599281bd2d717b8.jpg);
-	background-size: 100%;
+        background-size: cover;
         background-repeat: no-repeat;
-        height: 52%}
+        height: 40%}
 div.inf2{background-image: url(../assests/allied-races.jpg);
-        background-size: 100%;
+        background-size: cover;
         background-repeat: no-repeat;
-        height: 80%}
+        height: 60%}
+
+div.inf4 {height: 70% ;}
+
+.fraction {width:50%; height:auto;} 
+.prepurch {display:flex; flex-direction: column}
+.prepurch img{width:40%; height:auto;}
+.circle {width:50%; height:auto;}
+.heart  {margin-top: -10%;height:auto; width:35%;}
+
 .islands {display:flex;}
-.islands div div{display: none;width: 50%;
+.islands div div{display: none;
+                width: 50%;
                 height: 50%;}
-.islands div {width: 50%;}
+.islands div {width: 50%;height: auto;}
 .islands h1:hover + .hidden1{display: block;
+                        width:100%;
                         animation-name: anim1;
                         animation-duration: 8s;
                         animation-iteration-count: infinite ;
@@ -41,7 +57,8 @@ div.inf2{background-image: url(../assests/allied-races.jpg);
                         background-image: url(../assests/sl_N_06_19.jpg);
                         background-repeat: no-repeat;}
 .islands h1:hover + .hidden2{display: block;
-                        left:25%;
+                        width:100%;
+                        left:0;
                         animation-name: anim2;
                         animation-duration: 8s;
                         animation-iteration-count: infinite ;
@@ -55,21 +72,3 @@ div.inf2{background-image: url(../assests/allied-races.jpg);
 
 
 
-div.footer {grid-area: footer;
-        text-shadow: 3px 3px 5px black,-3px -3px 5px black,0px 2px 5px black,2px 0px 5px black,-2px 0px 5px black,0px -2px 5px black,-2px 2px 5px black,2px -2px 5px black;}
-div.footer p {font-size: 15px;}
-div.footer a {font-size: 15px;}
-
-div p {
-        padding: 3px;
-        font-size: 30px;
-        color: whitesmoke;
-        text-shadow: 3px 3px 5px black,-3px -3px 5px black,0px 2px 5px black,2px 0px 5px black,-2px 0px 5px black,0px -2px 5px black,-2px 2px 5px black,2px -2px 5px black;}
-div h1 {margin: 6px;
-        color: whitesmoke;
-        text-shadow: 3px 3px 5px black,-3px -3px 5px black,0px 2px 5px black,2px 0px 5px black,-2px 0px 5px black,0px -2px 5px black,-2px 2px 5px black,2px -2px 5px black;}
-div h2 {margin: 6px;
-        color: whitesmoke;
-        text-shadow: 3px 3px 5px black,-3px -3px 5px black,0px 2px 5px black,2px 0px 5px black,-2px 0px 5px black,0px -2px 5px black,-2px 2px 5px black,2px -2px 5px black;}
-        div.footer{font-size: 15px;}
-         

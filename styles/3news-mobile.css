@@ -1,15 +1,16 @@
 .grid {
     margin:0;
-    grid-template-rows:  0.1fr 1fr 2fr 2fr 2fr  0.5fr  ;
+    grid-template-rows:   0.2fr 0.6fr 10fr 2fr 0.5fr  ;
     grid-template-columns: 1fr ;
     grid-template-areas:"header"
                         "imglogo"
                         "cont"
                         "cont1"
-                        "cont2"
                         "footer";
                         grid-row-gap: 50px;
                         grid-column-gap: 7px;}
+                        .header {display: flex;
+                            flex-direction: column;}
 .hlogo {width: 100%;
 height:auto;}
 .header {grid-template-rows:  1fr 1fr;
@@ -18,10 +19,12 @@ height:auto;}
                         "menua menua menua"; 
     grid-row-gap: 0;
     grid-column-gap: 7px;}
-html { background: black url(../assests/Безымянный.png) repeat-y;}
-body {background:none;
+html { background: black url(../assests/Безымянный.png) repeat-y!important;}
+body {background:none!important;
     margin: 0; 
     height: 100%; 
     }
-.cont div img{width:100%!important;}
-                            
+.nlogo {width:100%!important;}
+.nart {width:100%!important;}
+div.cont div img {width: 100%!important;}
+.video {width: 100%!important;}

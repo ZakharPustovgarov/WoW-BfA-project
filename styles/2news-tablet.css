@@ -1,0 +1,21 @@
+.grid {display:grid;
+    margin:0;
+    grid-template-rows:   0.5fr 1fr 10fr 3fr 0.5fr ;
+    grid-template-columns: 1fr ;
+    grid-template-areas:    "header"
+                            "imglogo"
+                            "cont"
+                            "cont1"  
+                            "footer";
+                            grid-row-gap: 20%;
+                            grid-column-gap: 0;}
+.header {grid-template-rows:  0.1fr;
+        grid-template-columns: 1fr   2fr;
+        grid-template-areas:"img  menua"; 
+        grid-row-gap: 7px;
+        grid-column-gap: 7px;}
+html { background: black url(../assests/Безымянный.png) repeat-y !important;}
+body {background:none!important;
+        margin: 0; 
+        height: 100%; 
+        }

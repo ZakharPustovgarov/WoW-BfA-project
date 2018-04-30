@@ -1,0 +1,23 @@
+.grid {
+    margin:0;
+    grid-template-rows:   0.2fr 10fr 2fr 0.5fr  ;
+    grid-template-columns: 1fr ;
+    grid-template-areas:"header"
+                        "cont"
+                        "cont1"
+                        "footer";
+                        grid-row-gap: 50px;
+                        grid-column-gap: 7px;}
+                        .header {display: flex;
+                            flex-direction: column;}
+.hlogo {width: 100%;
+height:auto;}
+.header {grid-template-rows:  1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+    grid-template-areas:"img"
+                        "menua"
+                        "menua"
+                        "menua"; 
+    grid-row-gap: 0;
+    grid-column-gap: 7px;}
+.ablogo{width: 100%!important}
