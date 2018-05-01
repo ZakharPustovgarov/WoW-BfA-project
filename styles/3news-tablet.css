@@ -1,7 +1,7 @@
 @import url(footera.css);
 .grid {display:grid;
     margin:0;
-    grid-template-rows:   0.5fr 1fr 10fr 3fr 0.5fr ;
+    grid-template-rows:   0.1fr 0.4fr 2fr 1fr 0.2fr ;
     grid-template-columns: 1fr ;
     grid-template-areas:    "header"
                             "imglogo"
@@ -20,4 +20,6 @@ body {background:none!important;
         margin: 0; 
         height: 100%; 
         }
-.video iframe { width:80vw!important;}
+
+.obj img {width:28%!important; }
+.obj1 img {width:35%!important; }
