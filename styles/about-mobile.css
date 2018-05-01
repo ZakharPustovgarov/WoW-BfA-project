@@ -1,7 +1,7 @@
 @import url(hlogostyle.css);
 .grid {
     margin:0;
-    grid-template-rows:   0.09fr 3fr 1fr 0.1fr  ;
+    grid-template-rows:   0.09fr 2.5fr 0.3fr 0.1fr  ;
     grid-template-columns: 1fr ;
     grid-template-areas:"header"
                         "cont"

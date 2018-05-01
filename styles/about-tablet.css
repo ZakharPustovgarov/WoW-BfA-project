@@ -1,6 +1,6 @@
 .grid {display:grid;
     margin:0;
-    grid-template-rows:   1fr 120fr 3fr 1fr ;
+    grid-template-rows:  0.09fr 1.6fr 0.8fr 0.2fr ;
     grid-template-columns: 1fr ;
     grid-template-areas:    "header"
                             "cont"
