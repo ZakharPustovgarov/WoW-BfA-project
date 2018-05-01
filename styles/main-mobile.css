@@ -30,3 +30,9 @@ body {
 .prepurch img{width:100%!important; }
 .circle {width:100%!important;}
 div.inf4 {height: auto!important ;}
+div.inf {background-size: 100%!important ;
+        background-color:black ;}
+div.inf1 {background-size: 100%!important ;
+        background-color:black ;}
+div.inf2{background-size: 100%!important ;
+        background-color:black ;}
