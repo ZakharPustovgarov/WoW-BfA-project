@@ -79,17 +79,18 @@ div.inf4{grid-area:cont4;}
 
 .imgfloat {float:right;}
 
-.ucomment {width:100%; height:auto; background-color: rgb(224, 230, 235);border:3px black solid}
+.ucomment {width:95%; height:auto; background-color: rgb(224, 230, 235);border:3px black solid}
 .othercomment {display:flex;flex-direction: column;width:100%; height: auto; margin-top:1%;}
-.smbdcomment {display: flex;width:100%; height: auto; border:3px black solid}
+.smbdcomment {display: flex;width:95%; height: auto; border:3px black solid}
 .person {display:flex;
         flex-direction: column;
-        width:11%; 
+        width:13%; 
         height: auto;
         border:3px black solid;
         padding:1%;
         margin-right: 2%;}
-.comment{width:89%; height: auto;}
+.person img{width:90%;}
+.comment{width:87%; height: auto;}
 
 .nlogo {width:40%; height: auto;}
 

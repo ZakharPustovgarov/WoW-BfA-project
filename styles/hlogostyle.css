@@ -1,7 +1,9 @@
 .hlogo img{width:30%!important;}
 div.menua   {border-top:3px black solid;}
-
-
+.smbdcomment{flex-direction: column;}
+.person {flex-direction: row!important;width:97%!important;}
+.person div{margin-left: 2%;}
+.comment{padding: 2%;}
          
     
    
