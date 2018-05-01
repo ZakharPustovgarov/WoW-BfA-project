@@ -19,7 +19,7 @@ html { background: rgb(12, 31, 49) ;
         border-radius: 6px;
         z-index: 5;}
         .hlogo{grid-area: img; margin-top:1%;margin-left:1%; width:100%;}
-.hlogo .blogo{width: 30%;}
+.hlogo .blogo{width: 20%;}
 .ablogo {width: 20%; height: auto;}
 .blogo{width:14%; height:auto; }
 .imglogo   {grid-area:imglogo; } 
