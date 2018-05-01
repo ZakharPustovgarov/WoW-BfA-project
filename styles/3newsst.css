@@ -7,4 +7,4 @@
 div.cont  {padding:2%;}
 div.cont div img {width: 46%;height: auto;}
 .video {align-self: center; margin-top: 2%; width:80%; height: auto;}
-.video iframe { width:1000; height:650; }
+.video iframe { width:40vw; height:80vh; }
