@@ -1,7 +1,7 @@
 @import url(hlogostyle.css);
 .grid {
     margin:0;
-    grid-template-rows:   0.1fr 4fr 2fr 0.5fr  ;
+    grid-template-rows:   0.09fr 5fr 2fr 1.5fr  ;
     grid-template-columns: 1fr ;
     grid-template-areas:"header"
                         "cont"
@@ -13,13 +13,14 @@
                             flex-direction: column;}
 .hlogo {width: 100%;
 height:auto;}
-.header {grid-template-rows:  1fr 1fr 1fr;
+.header {grid-template-rows:  1fr 1.2fr ;
     grid-template-columns: 1fr;
     grid-template-areas:"img"
-                        "menua"
                         "menua"; 
     grid-row-gap: 0;
     grid-column-gap: 7px;}
 .ablogo{width: 100%!important}
 .wow{width:100%;}
 .sc,.diablo,.overwatch,.hots {width:50%;}
+.footer a{background: 4px black solid;border-radius: 8px;background:linear-gradient(rgb(18, 45, 71),rgb(12, 31, 49));padding:2%; }
+body * {font-size:1.2em;}

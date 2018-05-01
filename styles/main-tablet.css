@@ -1,6 +1,7 @@
+@import url(footera.css);
 .grid {display:grid;
         margin:0;
-        grid-template-rows:  0.1fr 1fr 2fr 2fr 2fr 2fr 2fr 0.4fr  ;
+        grid-template-rows:  0.1fr 0.5fr 2fr 2fr 2fr 2fr 2fr 0.4fr  ;
         grid-template-columns: 1fr ;
         grid-template-areas:    "header"
                                 "imglogo"

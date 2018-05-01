@@ -17,6 +17,9 @@ html { background: black url(../assests/Безымянный.png) repeat-y;
         border: 3px solid black;
         border-radius: 6px;
         z-index: 5;}
+.person div img{width:60%}
+.person div {width: 100%;}
+.footer p {margin-bottom: 5%}
     .hlogo{grid-area: img; margin-top:1%;margin-left:1%;}
     .hlogo img{width:14%;height: auto;}
 
@@ -81,17 +84,16 @@ div.inf4{grid-area:cont4;}
 
 .ucomment {width:95%; height:auto; background-color: rgb(224, 230, 235);border:3px black solid}
 .othercomment {display:flex;flex-direction: column;width:100%; height: auto; margin-top:1%;}
-.smbdcomment {display: flex;width:95%; height: auto; border:3px black solid}
+.smbdcomment {display: flex;flex-direction: column;width:95%; height: auto; border:3px black solid}
+.person div img{width:30%!important;}
 .person {display:flex;
-        flex-direction: column;
-        width:13%; 
+        flex-direction: row;
+        width:97%;
         height: auto;
         border:3px black solid;
-        padding:1%;
-        margin-right: 2%;}
-.person img{width:90%;}
-.comment{width:87%; height: auto;}
-
+        padding:1%;}
+.comment{width:87%; height: auto;padding: 2%;}
+.person div{margin-left: 1%;}
 .nlogo {width:40%; height: auto;}
 
 div p{font-size: 1.5em;}
