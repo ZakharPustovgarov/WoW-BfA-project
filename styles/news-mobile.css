@@ -1,3 +1,4 @@
+@import url(hlogostyle.css);
 .grid {
     margin:0;
     grid-template-rows:  0.1fr 1fr 2fr 2fr 2fr  0.5fr  ;

@@ -18,7 +18,7 @@ html { background: black url(../assests/Безымянный.png) repeat-y;
         border-radius: 6px;
         z-index: 5;}
     .hlogo{grid-area: img; margin-top:1%;margin-left:1%;}
-    .hlogo img{width:8%;height: auto;}
+    .hlogo img{width:14%;height: auto;}
 
     div.menua   {grid-area: menua;
                 display: flex;
