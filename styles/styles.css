@@ -19,7 +19,6 @@ html { background: black url(../assests/Безымянный.png) repeat-y;
         z-index: 5;}
 .person div img{width:60%}
 .person div {width: 100%;}
-.footer p {margin-bottom: 5%}
     .hlogo{grid-area: img; margin-top:1%;margin-left:1%;}
     .hlogo img{width:14%;height: auto;}
 
