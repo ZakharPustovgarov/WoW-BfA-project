@@ -101,7 +101,7 @@ div a{font-size: 1.5em;}
     
 div *{text-shadow: 3px 3px 5px black,-3px -3px 5px black,0px 2px 5px black,2px 0px 5px black,-2px 0px 5px black,0px -2px 5px black,-2px 2px 5px black,2px -2px 5px black;
     color: whitesmoke;}
-.footer p{width: 100%}
+    .footer p{width: 98%}
 
 div.footer {grid-area: footer;
             margin-top:10%;
