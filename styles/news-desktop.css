@@ -1,19 +1,4 @@
-.grid { display:grid;
-        margin:0;
-        grid-template-rows:  0.2fr 0.6fr 1.5fr 1.5fr 1.5fr  0.5fr;
-        grid-template-columns: 1fr 5fr 1fr ;
-        grid-template-areas:"header header header"
-                            ". imglogo ."
-                            ". cont ."
-                            ". cont1 ."                 
-                            ". cont2 ."
-                            "footer footer footer";
-                            grid-row-gap: 30%;
-                            grid-column-gap: 7px;}
-    .header {grid-template-rows:  0.1fr;
-                grid-template-columns: 1fr 1fr 2fr;
-                grid-template-areas:"img . menua"; 
-                grid-row-gap: 7px;
-                grid-column-gap: 7px;}
+@import url(news-grid-position-greater.css);
+@import url(header-grid-desktop.css);
 div.cont div img {width:30%;}
                     

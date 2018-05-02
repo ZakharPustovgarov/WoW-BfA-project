@@ -9,3 +9,4 @@
                         "footer";
                         grid-row-gap: 5%;
                         grid-column-gap: 7px;}
+.footer a{background: 4px black solid;border-radius: 8px;background:linear-gradient(rgb(18, 45, 71),rgb(12, 31, 49));padding:2%; }

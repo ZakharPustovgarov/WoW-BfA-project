@@ -1,10 +1,11 @@
-@import url(wow-mobile.css)(max-width:767px);
-.smbdcomment .person div img {width:40%;}
-html { background: black url(../assests/Безымянный.png) repeat-y;}
-body {background:none;
-    margin: 0; 
-    height: 100%;}
-.footer a{background: 4px black solid;border-radius: 8px;background:linear-gradient(#3f180f,#200c08);padding:2%;width: 20%; }
-.cont{width:96%;}
-.header {background: linear-gradient(#3f180f,#200c08);}
-.cont{background: linear-gradient(#3f180f,#200c08);}
+.grid { 
+    grid-template-rows:  0.2fr 0.6fr 1.5fr 1.5fr 1.5fr  0.5fr;
+    grid-template-columns: 1fr 5fr 1fr ;
+    grid-template-areas:"header header header"
+                        ". imglogo ."
+                        ". cont ."
+                        ". cont1 ."                 
+                        ". cont2 ."
+                        "footer footer footer";
+                        grid-row-gap: 30%;
+                        grid-column-gap: 7px;}

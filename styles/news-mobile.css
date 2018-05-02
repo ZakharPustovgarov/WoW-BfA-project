@@ -1,22 +1,5 @@
-
-.grid {display:grid;
-    margin:0;
-    grid-template-rows:  0.2fr 0.2fr 1.5fr 1.5fr 1.5fr 0.3fr ;
-    grid-template-columns: 1fr ;
-    grid-template-areas:"header"
-                        "imglogo"
-                        "cont"
-                        "cont1"
-                        "cont2"
-                        "footer";
-                        grid-row-gap: 10%;
-                        grid-column-gap:0;}
-.header {grid-template-rows:  1fr 1fr;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-areas:". img ."
-                        "menua menua menua"; 
-    grid-row-gap: 0;
-    grid-column-gap: 7px;}
+@import url(news-grid-position-lesser.css);
+@import url(header-grid-mobile.css);
 .cont div img{width:98%;}
 
                             

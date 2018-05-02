@@ -1,10 +1,7 @@
 @import url(main-grid-position-lesser.css);
 @import url(header-grid-tablet.css);
 
-.islands h1:hover + .hidden1{left:1%;
-                        height:70%;
-                        width:96%;}
-.islands h1:hover + .hidden2{left:1%;
+.islands h1:hover + .anim{left:1%;
                         height:70%;
                         width:96%;}
 .inf2 p:hover + .alliesHorde{left: 1%;
