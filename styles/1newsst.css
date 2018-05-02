@@ -7,4 +7,4 @@
 @import url(wow-news.css);
 div.cont div img {height: auto;}
 .video {align-self: center; margin-top: 2%; height: auto;}
-.video iframe { height:80vh; }
+.video iframe {width: inherit; height:60vh; }

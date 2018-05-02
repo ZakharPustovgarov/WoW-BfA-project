@@ -1,17 +1,4 @@
-.grid { display:grid;
-        margin:0;
-        grid-template-rows:  0.05fr 0.6fr 0.3fr 0.1fr  ;
-        grid-template-columns: 1fr 5fr 1fr ;
-        grid-template-areas:"header header header"
-                            ". cont ."
-                            ". cont1 ."                 
-                            "footer footer footer";
-                            grid-row-gap: 5%;
-                            grid-column-gap: 7px;}
-    .header {grid-template-rows:  2fr 2fr;
-                grid-template-columns: 1fr 1fr 1fr;
-                grid-template-areas:". img ."
-                                "menua menua menua"; 
-                grid-row-gap: 7px;
-                grid-column-gap: 7px;}
+@import url(about-grid-position-greater.css);
+@import url(header-grid-about.css);
 .ablogo{float:right;width: 30%;}
+.hlogo .blogo{width: 20%;}

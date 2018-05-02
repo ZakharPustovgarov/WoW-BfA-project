@@ -1,23 +1,6 @@
-@import url(footera.css);
-.grid {display:grid;
-        margin:0;
-        grid-template-rows:  0.1fr 0.5fr 2fr 2fr 2fr 2fr 2fr 0.4fr  ;
-        grid-template-columns: 1fr ;
-        grid-template-areas:    "header"
-                                "imglogo"
-                                "cont"
-                                "cont1"
-                                "cont2"
-                                "cont3"
-                                "cont4"
-                                "footer";
-                                grid-row-gap: 20%;
-                                grid-column-gap: 0;}
-    .header {grid-template-rows:  0.1fr;
-            grid-template-columns: 1fr   2fr;
-            grid-template-areas:"img  menua"; 
-            grid-row-gap: 7px;
-            grid-column-gap: 7px;}
+@import url(main-grid-position-lesser.css);
+@import url(header-grid-tablet.css);
+
 .islands h1:hover + .hidden1{left:1%;
                         height:70%;
                         width:96%;}

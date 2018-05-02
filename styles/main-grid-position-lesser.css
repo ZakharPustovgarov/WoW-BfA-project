@@ -1,0 +1,13 @@
+.grid {grid-template-rows:  0.1fr 0.4fr 1fr 1.1fr 1.1fr 1.1fr 1.1fr 0.1fr  ;
+    margin:0;
+    grid-template-columns: 1fr ;
+    grid-template-areas:    "header"
+                            "imglogo"
+                            "cont"
+                            "cont1"
+                            "cont2"
+                            "cont3"
+                            "cont4"
+                            "footer";
+                            grid-row-gap: 10%;
+                            grid-column-gap: 0;}

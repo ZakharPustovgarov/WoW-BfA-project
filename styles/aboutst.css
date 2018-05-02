@@ -2,37 +2,19 @@
 @import url(about-desktop.css) (min-width:1024px);
 @import url(about-tablet.css) (max-width:1023px) and (min-width:768px); 
 @import url(about-mobile.css) (max-width:767px);
-html { background: rgb(12, 31, 49) ; 
-}
-
+html { background: rgb(12, 31, 49);}
 .header {background: linear-gradient(rgb(18, 45, 71),rgb(12, 31, 49)); }
-.hlogo .blogo{width: 20%;}
 .ablogo { height: auto;}
 .blogo{width:14%; height:auto; }
 div.cont{background:linear-gradient(rgb(18, 45, 71),rgb(12, 31, 49))}
 .menua {border-top: 4px black solid}
 .menua div img{display:none;}
-.wow:hover img{display: inline-block;
-                        width:20% ;
-                        position:absolute;  
-                        top:70%;}
-.sc:hover img{display: inline-block;
-                        width:20% ;
-                        position:absolute;
-                        left:20%;
-                        top:70%;}
-.diablo:hover img{display: inline-block;
-                        width:20% ;
-                        position:absolute;
-                        left:40%;
-                        top:70%;}
-.overwatch:hover img{display: inline-block;
-                        width:20% ;
-                        position:absolute;
-                        left:60%;
-                        top:70%;}
-.hots:hover img{display: inline-block;
-                        width:20%;
-                        position:absolute;
-                        left:80% ;
-                        top:70%;}
+.wow:hover img{left:0;}
+.sc:hover img{left:20%;}
+.diablo:hover img{left:40%;}
+.overwatch:hover img{left:60%;}
+.hots:hover img{left:80% ;}
+.unhide:hover img{display: inline-block;
+                width:20%;
+                position:absolute;
+                top:70%;}

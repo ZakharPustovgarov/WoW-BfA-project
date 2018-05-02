@@ -1,6 +1,5 @@
 
 @import url(2news-desktop.css) (min-width:1024px);
-@import url(notebook.css) (max-width:1314px) and (min-width:1024px); 
 @import url(2news-tablet.css) (max-width:1023px) and (min-width:768px); 
 @import url(2news-mobile.css) (max-width:767px);
 @import url(wow-desktop.css)(min-width:1315px);

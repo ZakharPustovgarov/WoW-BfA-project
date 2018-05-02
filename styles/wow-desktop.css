@@ -1,5 +1,5 @@
-html { background: black url(../assests/Безымянный.png) repeat-y;}
-body {background: url(../assests/12345.png) repeat-y 100% 0;
+html { background: black url(../assets/wow-background-2.png) repeat-y;}
+body {background: url(../assets/wow-background-1.png) repeat-y 100% 0;
     margin: 0; 
     height: 100%;}
 .cont{width:100%;}

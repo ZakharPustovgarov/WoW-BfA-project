@@ -1,0 +1,11 @@
+.grid {
+    margin:0;
+    grid-template-rows:  0.1fr 0.1fr 1.3fr 0.4fr 0.1fr   ;
+    grid-template-columns: 1fr ;
+    grid-template-areas:"header"
+                        "imglogo"
+                        "cont"
+                        "cont1"
+                        "footer";
+                        grid-row-gap: 10%;
+                        grid-column-gap: 7px;}

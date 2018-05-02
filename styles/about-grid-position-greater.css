@@ -1,0 +1,9 @@
+.grid {
+    grid-template-rows:  0.05fr 0.6fr 0.3fr 0.1fr  ;
+    grid-template-columns: 1fr 5fr 1fr ;
+    grid-template-areas:"header header header"
+                        ". cont ."
+                        ". cont1 ."                 
+                        "footer footer footer";
+                        grid-row-gap: 5%;
+                        grid-column-gap: 7px;}

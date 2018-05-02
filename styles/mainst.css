@@ -7,20 +7,20 @@
 
 
 @keyframes anim1 { 
-        from {background-image: url(../assests/zuldazar.jpg);}
-        50% {background-image: url(../assests/nazmir.jpg);}
-        to {background-image: url(../assests/voldun.jpg);}
+        from {background-image: url(../assets/zuldazar.jpg);}
+        50% {background-image: url(../assets/nazmir.jpg);}
+        to {background-image: url(../assets/voldun.jpg);}
     
 }
 @keyframes anim2 { 
-        from {background-image: url(../assests/stormsong.jpg);}
-        50% {background-image: url(../assests/drustvar.jpg);}
-        to {background-image: url(../assests/tiragard.jpg);}
+        from {background-image: url(../assets/stormsong.jpg);}
+        50% {background-image: url(../assets/drustvar.jpg);}
+        to {background-image: url(../assets/tiragard.jpg);}
     
 }
-.inf {background-image: url(../assests/AllianceVsHorde.jpg);}
-.inf1 {background-image: url(../assests/islands.jpg);}
-.inf2{background-image: url(../assests/allied-races.jpg);}
+.inf {background-image: url(../assets/AllianceVsHorde.jpg);}
+.inf1 {background-image: url(../assets/islands.jpg);}
+.inf2{background-image: url(../assets/allied-races.jpg);}
 .cont{background-size: 100%;
 background-repeat: no-repeat;
 background-color: black;}
@@ -58,9 +58,9 @@ background-color: black;}
 .islands h1:hover + .anim{display:block;
                         position: absolute;}
 .islands h1:hover + .hidden1{animation-name: anim1;
-                        background-image: url(../assests/sl_N_06_19.jpg);}
+                        background-image: url(../assets/sl_N_06_19.jpg);}
 .islands h1:hover + .hidden2{animation-name: anim2;
-                        background-image: url(../assests/sl_N_06_66.jpg);}
+                        background-image: url(../assets/sl_N_06_66.jpg);}
 
 
 
