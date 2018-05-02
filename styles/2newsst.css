@@ -1,18 +1,9 @@
-@import url(2news-desktop.css) (min-device-width: 1024px);
+
 @import url(2news-desktop.css) (min-width:1024px);
 @import url(notebook.css) (max-width:1314px) and (min-width:1024px); 
-@import url(notebook.css) (min-device-width: 1024px) and (max-device-width: 1314px);
 @import url(2news-tablet.css) (max-width:1023px) and (min-width:768px); 
-@import url(2news-tablet.css) (min-device-width: 768px) and (max-device-width: 1023px);
 @import url(2news-mobile.css) (max-width:767px);
-@import url(2news-mobile.css) (max-device-width: 767px);
-div.cont div img {
-    height:auto;
-    border:4px solid black;
-    border-radius: 6px;}
-div.cont div img:hover {transform: scale(1.7);
-            transition-duration: 1s}
-div.cont div img:hover {transform: scale(1.7);
-                        transition-duration: 1s}
-.obj2 div img {width:48%; height: auto;  border-radius: 6px; }
-.obj2 div {width:100%; height: auto; }
+@import url(wow-desktop.css)(min-width:1315px);
+@import url(wow-other.css)(max-width:1314px);
+@import url(wow-news.css);
+.obj2 div {width:100%;height: auto; }

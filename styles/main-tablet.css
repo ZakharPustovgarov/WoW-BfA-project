@@ -18,9 +18,17 @@
             grid-template-areas:"img  menua"; 
             grid-row-gap: 7px;
             grid-column-gap: 7px;}
-html { background: black url(../assests/Безымянный.png) repeat-y;}
-body {
-        background:none;
-        margin: 0; 
-        height: 100%; 
-        }
+.islands h1:hover + .hidden1{left:1%;
+                        height:70%;
+                        width:96%;}
+.islands h1:hover + .hidden2{left:1%;
+                        height:70%;
+                        width:96%;}
+.inf2 p:hover + .alliesHorde{left: 1%;
+                            height:60%;
+                            width:68%;}
+.inf2 p:hover + .alliesAlliance{left: 29%;
+                                height:60%;
+                                width:68%;}
+.prepurch img{width:40%;}
+.circle {width:50%;}

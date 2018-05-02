@@ -1,7 +1,7 @@
 @import url(hlogostyle.css);
 .grid {display:grid;
     margin:0;
-    grid-template-rows:  0.1fr 0.5fr 2fr 2fr 2fr 2fr 2fr 0.5fr  ;
+    grid-template-rows:  0.1fr 0.4fr 1fr 1.1fr 1.1fr 1.1fr 1.1fr 0.1fr  ;
     grid-template-columns: 1fr ;
     grid-template-areas:    "header"
                             "imglogo"
@@ -21,18 +21,18 @@
         grid-column-gap: 7px;}
 .hlogo {width: 100%;
         height:auto;}
-html { background: black url(../assests/Безымянный.png) repeat-y;}
-body {
-        background:none;
-        margin: 0; 
-        height: 100%; 
-    }
-.prepurch img{width:100%!important; }
-.circle {width:100%!important;}
-div.inf4 {height: auto!important ;}
-div.inf {background-size: 100%!important ;
-        background-color:black ;}
-div.inf1 {background-size: 100%!important ;
-        background-color:black ;}
-div.inf2{background-size: 100%!important ;
-        background-color:black ;}
+.prepurch img{width:96%;}
+.circle {width:96%;}
+.islands h1:hover + .hidden1{left:1%;
+        height:70%;
+        width:97%;}
+.islands h1:hover + .hidden2{left:1%;
+        height:70%;
+        width:97%;}
+.inf2 p:hover + .alliesHorde{left: 1%;
+                            height:60%;
+                            width:96%;}
+.inf2 p:hover + .alliesAlliance{left: 29%;
+                                height:60%;
+                                width:68%;}
+

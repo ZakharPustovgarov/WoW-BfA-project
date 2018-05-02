@@ -1,76 +1,65 @@
 
- @import url(main-desktop.css) (min-device-width: 1024px);
  @import url(main-desktop.css) (min-width:1024px);
- @import url(notebook.css) (max-width:1314px) and (min-width:1024px); 
-@import url(notebook.css) (min-device-width: 1024px) and (max-device-width: 1314px);
  @import url(main-tablet.css) (max-width:1023px) and (min-width:768px); 
- @import url(main-tablet.css) (min-device-width: 768px) and (max-device-width: 1023px);
  @import url(main-mobile.css) (max-width:767px);
- @import url(main-mobile.css) (max-device-width: 767px);
+ @import url(wow-desktop.css)(min-width:1315px);
+ @import url(wow-other.css)(max-width:1314px);
+
 
 @keyframes anim1 { 
-        from {background-image: url(../assests/sl_N_06_19.jpg);}
-        50% {background-image: url(../assests/sl_N_06_28.jpg);}
-        to {background-image: url(../assests/kk52yqx5yy_d74859ff87de98665ca29119a79cbb3cf60f36ec_1509816368_9984.jpg);}
+        from {background-image: url(../assests/zuldazar.jpg);}
+        50% {background-image: url(../assests/nazmir.jpg);}
+        to {background-image: url(../assests/voldun.jpg);}
     
 }
 @keyframes anim2 { 
-        from {background-image: url(../assests/sl_N_06_66.jpg);}
-        50% {background-image: url(../assests/WoW_WhatsNext_Pic9.jpg);}
-        to {background-image: url(../assests/BKJ2XYS3YIXF1509567053378.jpg);}
+        from {background-image: url(../assests/stormsong.jpg);}
+        50% {background-image: url(../assests/drustvar.jpg);}
+        to {background-image: url(../assests/tiragard.jpg);}
     
 }
-div.inf {background-image: url(../assests/9W8MM2AWQXJP1517267972036-1050x525.jpg);
-        background-size: cover;
-        background-repeat: no-repeat;
-        height: 32%}
-div.inf1 {background-image: url(../assests/295-abeeb77e8dbc1721c599281bd2d717b8.jpg);
-        background-size: cover;
-        background-repeat: no-repeat;
-        height: 40%}
-div.inf2{background-image: url(../assests/allied-races.jpg);
-        background-size: cover;
-        background-repeat: no-repeat;
-        height: 60%}
+.inf {background-image: url(../assests/AllianceVsHorde.jpg);}
+.inf1 {background-image: url(../assests/islands.jpg);}
+.inf2{background-image: url(../assests/allied-races.jpg);}
+.cont{background-size: 100%;
+background-repeat: no-repeat;
+background-color: black;}
 
-div.inf4 {height: 70% ;}
+.inf2 table{margin-top:1%;}
+.inf table {margin-top:-1%;}
+.inf2  li div {display:none;}
+.inf2 p:hover + div{display: block;
+                position: absolute;
+                background-color: black;
+                border: 4px black solid;
+                border-radius: 6px;}
+.inf2 p:hover + div img {width: auto;
+                        height: 100%;}
+
 
 .fraction {width:50%; height:auto;} 
 .prepurch {display:flex; flex-direction: column}
-.prepurch img{width:40%; height:auto;}
-.circle {width:50%; height:auto;}
+.prepurch img{ height:auto;}
+.circle {height:auto;}
 .heart  {margin-top: -10%;height:auto; width:35%;}
-
+.anim {animation-duration: 8s;
+        animation-iteration-count: infinite ;
+        animation-timing-function: linear;
+        animation-fill-mode: forwards;
+        border:4px solid black;
+        background-size: cover;
+        background-repeat: no-repeat;}
 .islands {display:flex;}
 .islands div div{display: none;
                 width: 50%;
                 height: 50%;}
 .islands div {width: 50%;height: auto;}
-.islands h1:hover + .hidden1{display: block;
-                        width:100%;
-                        animation-name: anim1;
-                        animation-duration: 8s;
-                        animation-iteration-count: infinite ;
-                        animation-timing-function: linear;
-                        animation-fill-mode: forwards;
-                        position: absolute;
-                        border:4px solid black;
-                        background-size: cover;
-                        background-image: url(../assests/sl_N_06_19.jpg);
-                        background-repeat: no-repeat;}
-.islands h1:hover + .hidden2{display: block;
-                        width:100%;
-                        left:0;
-                        animation-name: anim2;
-                        animation-duration: 8s;
-                        animation-iteration-count: infinite ;
-                        animation-timing-function: linear;
-                        animation-fill-mode:both ;
-                        position: absolute;
-                        border:4px solid black;
-                        background-image: url(../assests/sl_N_06_66.jpg);
-                        background-size: cover;
-                        background-repeat: no-repeat;}
+.islands h1:hover + .anim{display:block;
+                        position: absolute;}
+.islands h1:hover + .hidden1{animation-name: anim1;
+                        background-image: url(../assests/sl_N_06_19.jpg);}
+.islands h1:hover + .hidden2{animation-name: anim2;
+                        background-image: url(../assests/sl_N_06_66.jpg);}
 
 
 

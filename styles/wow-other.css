@@ -1,0 +1,10 @@
+@import url(wow-mobile.css)(max-width:767px);
+.smbdcomment .person div img {width:40%;}
+html { background: black url(../assests/Безымянный.png) repeat-y;}
+body {background:none;
+    margin: 0; 
+    height: 100%;}
+.footer a{background: 4px black solid;border-radius: 8px;background:linear-gradient(#3f180f,#200c08);padding:2%;width: 20%; }
+.cont{width:96%;}
+.header {background: linear-gradient(#3f180f,#200c08);}
+.cont{background: linear-gradient(#3f180f,#200c08);}

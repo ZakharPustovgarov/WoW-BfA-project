@@ -1,16 +1,21 @@
-.grid { display:grid;
+.grid { 
         margin:0;
-        grid-template-rows:  0.1fr 0.2fr 0.4fr 0.4fr 0.1fr  ;
-        grid-template-columns: 1fr 2fr 1fr ;
+        grid-template-rows:  0.1fr 0.1fr 0.4fr 0.4fr 0.1fr  ;
+        grid-template-columns: 1fr 5fr 1fr ;
         grid-template-areas:"header header header"
                             ". imglogo ."
                             ". cont ."
                             ". cont1 ."                 
                             "footer footer footer";
-                            grid-row-gap: 30%;
+                            grid-row-gap: 10%;
                             grid-column-gap: 7px;}
     .header {grid-template-rows:  0.1fr;
                 grid-template-columns: 1fr 1fr 2fr;
                 grid-template-areas:"img . menua"; 
                 grid-row-gap: 7px;
                 grid-column-gap: 7px;}
+.video iframe { width:40vw;}
+.video {width:80%;}
+div.inf div img {width: 45%;}
+div.inf div img:hover {transform: scale(1.7);
+        transition-duration: 1s}

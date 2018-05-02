@@ -9,8 +9,8 @@
         <meta http-equiv="Content-Type" content="text/html">
         <meta name="description" content="Маунт Трилобит">
         <meta name="keywords" content="WoW, world of warcrafrt, BfA, Battle for Azeroth, новинки,Трилобит">
-        <link href="../styles/1newsst.css" type="text/css" rel="stylesheet">
         <link href="../styles/styles.css" type="text/css" rel="stylesheet">
+        <link href="../styles/1newsst.css" type="text/css" rel="stylesheet">
         <link rel="shortcut icon" href="../assests/z.ico" type="text/x-icon">
     </head>
 
@@ -18,7 +18,7 @@
 
             <header class="header">
                 <div class="hlogo" align="center">
-                     <img   src="../assests/58640e59e8bc815946d80f61.png" alt="icon"  >
+                     <img   src="../assests/wow_icon.png" alt="icon"  >
                 </div>
     
                 <div class="menua">
@@ -38,7 +38,7 @@
             </header>
     
             <div class="imglogo" align="center">
-                <img  src="../assests/World_of_Warcraft_Battle_for_Azeroth_(логотип).png" alt="logo" align="center">
+                <img  src="../assests/bfa-logo.png" alt="logo" align="center">
             </div>
 
         <div class="inf cont">
@@ -62,7 +62,21 @@
                 <h1>Комментарии пользователей</h1>
                 <div> 
                     <div class="ucomment">
-                        <p align="center">К сожалению, вы не авторизованы и не можете писать комментарии.</p>
+                        <form method="GET">
+                    <p><b>Ваш комментарий:</b></p>
+                    <div>
+                        <label>Введите ваш BattleTag или элктронную почту:
+                            <input type="text" placeholder="example@bliz.com or #00000" required="" tabindex="1" name="name">
+                        </label>
+                    </div>
+                    <div>
+                        <label><p>Текст комментария:</p>
+                            <textarea class="comment" wrap="hard" cols="50" rows="5" name="comment" tabindex="2" required=""></textarea>
+                        </label>
+                    </div>
+                    <button type="submit">Отправить</button>
+                    <button type="clear">Очистить</button>
+                    </form>
                     </div>
                 </div>
                 <div class="othercomment">

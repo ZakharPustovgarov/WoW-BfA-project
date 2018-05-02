@@ -1,13 +1,10 @@
-@import url(news-desktop.css) (min-device-width: 1024px);
-@import url(news-desktop.css) (min-width:1024px);
-@import url(notebook.css) (max-width:1314px) and (min-width:1024px); 
-@import url(notebook.css) (min-device-width: 1024px) and (max-device-width: 1314px);
-@import url(news-tablet.css) (max-width:1023px) and (min-width:768px); 
-@import url(news-tablet.css) (min-device-width: 768px) and (max-device-width: 1023px);
-@import url(news-mobile.css) (max-width:767px);
-@import url(news-mobile.css) (max-device-width: 767px);
 
-div.cont {padding:2%;}
+@import url(news-desktop.css) (min-width:1024px);
+@import url(news-tablet.css) (max-width:1023px) and (min-width:768px); 
+@import url(news-mobile.css) (max-width:767px);
+@import url(wow-desktop.css)(min-width:1315px);
+@import url(wow-other.css)(max-width:1314px);
+@import url(wow-news.css);
 div.cont div {padding:2%;}
-div.cont div img {width:30%;
-                height:auto;}
+div.cont div img {height:auto;}
+.imglogo{margin-top:3%;}

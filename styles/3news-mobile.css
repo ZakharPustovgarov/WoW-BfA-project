@@ -1,31 +1,20 @@
 @import url(hlogostyle.css);
 .grid {
     margin:0;
-    grid-template-rows:   0.2fr 0.3fr 5fr 1fr 0.2fr  ;
+    grid-template-rows:   0.05fr 0.05fr 1.3fr 0.5fr 0.1fr ;
     grid-template-columns: 1fr ;
     grid-template-areas:"header"
                         "imglogo"
                         "cont"
                         "cont1"
                         "footer";
-                        grid-row-gap: 50px;
+                        grid-row-gap: 50%;
                         grid-column-gap: 7px;}
-                        .header {display: flex;
-                            flex-direction: column;}
-.hlogo {width: 100%;
-height:auto;}
 .header {grid-template-rows:  1fr 1fr;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas:". img ."
                         "menua menua menua"; 
     grid-row-gap: 0;
     grid-column-gap: 7px;}
-html { background: black url(../assests/Безымянный.png) repeat-y!important;}
-body {background:none!important;
-    margin: 0; 
-    height: 100%; 
-    }
-    .nlogo {width:100%!important;}
-    .nart {width:100%!important;}
-    .obj img {width:90%!important;}
-    .obj1 img {width:90%!important;}
+.obj img {width:90%;}
+.obj1 img {width:90%;}

@@ -1,7 +1,7 @@
-@import url(footera.css);
+
 .grid {display:grid;
     margin:0;
-    grid-template-rows:  0.1fr 1fr 2fr 2fr 2fr 0.4fr  ;
+    grid-template-rows:  0.2fr 0.2fr 1.5fr 1.5fr 1.5fr 0.3fr   ;
     grid-template-columns: 1fr ;
     grid-template-areas:    "header"
                             "imglogo"
@@ -9,15 +9,11 @@
                             "cont1"
                             "cont2"    
                             "footer";
-                            grid-row-gap: 20%;
+                            grid-row-gap: 10%;
                             grid-column-gap: 0;}
 .header {grid-template-rows:  0.1fr;
         grid-template-columns: 1fr   2fr;
         grid-template-areas:"img  menua"; 
         grid-row-gap: 7px;
         grid-column-gap: 7px;}
-html { background: black url(../assests/Безымянный.png) repeat-y;}
-body {background:none;
-        margin: 0; 
-        height: 100%; 
-        }
+div.cont div img {width:40%;}

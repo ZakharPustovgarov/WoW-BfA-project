@@ -1,7 +1,7 @@
 .grid { display:grid;
     margin:0;
-    grid-template-rows:  0.09fr 0.5fr 2fr 2fr 2fr 2fr 2fr 0.5fr  ;
-    grid-template-columns: 1fr 2fr 1fr ;
+    grid-template-rows:  0.1fr 0.4fr 1fr 1.3fr 1.2fr 1.5fr 1.5fr 0.1fr;
+    grid-template-columns: 1fr 5fr 1fr ;
     grid-template-areas:"header header header"
                         ". imglogo ."
                         ". cont ."
@@ -10,10 +10,24 @@
                         ". cont3 ."
                         ". cont4 ."
                         "footer footer footer";
-                        grid-row-gap: 25%;
+                        grid-row-gap: 1%;
                         grid-column-gap: 7px;}
 .header {grid-template-rows:  0.1fr;
             grid-template-columns: 1fr 1fr 2fr;
             grid-template-areas:"img . menua"; 
             grid-row-gap: 7px;
             grid-column-gap: 7px;}
+.islands h1:hover + .hidden1{left: 16%;
+                            height:70%;
+                            width:67.5%;}
+.islands h1:hover + .hidden2{left: 16%;
+                            height:70%;
+                            width:67.5%;}
+.inf2 p:hover + .alliesHorde{left: 16%;
+                            height:60%;
+                            width:34%;}
+.inf2 p:hover + .alliesAlliance{left: 49%;
+                                height:60%;
+                                width:34%;}
+.prepurch img{width:40%;}
+.circle {width:50%;}

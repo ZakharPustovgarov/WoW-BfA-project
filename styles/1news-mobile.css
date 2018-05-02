@@ -1,34 +1,22 @@
-@import url(hlogostyle.css);
+
 .grid {
     margin:0;
-    grid-template-rows:   0.2fr 0.3fr 3fr 1fr 0.2fr  ;
+    grid-template-rows:  0.1fr 0.1fr 1.3fr 0.6fr 0.1fr   ;
     grid-template-columns: 1fr ;
     grid-template-areas:"header"
                         "imglogo"
                         "cont"
                         "cont1"
                         "footer";
-                        grid-row-gap: 50px;
+                        grid-row-gap: 10%;
                         grid-column-gap: 7px;}
-                        .header {display: flex;
-                            flex-direction: column;}
-.hlogo {width: 100%;
-height:auto;}
 .header {grid-template-rows:  1fr 1fr;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas:". img ."
                         "menua menua menua"; 
     grid-row-gap: 0;
     grid-column-gap: 7px;}
-html { background: black url(../assests/Безымянный.png) repeat-y!important;}
-body {background:none!important;
-    margin: 0; 
-    height: 100%; 
-    }
-
-.nlogo {width:100%!important;}
-.nart {width:100%!important;}
-div.cont div img {width: 100%!important;}
-.smbdcomment .person div img {width:40%!important;}
-.video {width: 100%!important;}
-.video iframe { width:93vw!important;}
+div.cont div img {width: 97%;}
+.smbdcomment .person div img {width:40%;}
+.video {width: 97%;}
+.video iframe { width:93vw;}
