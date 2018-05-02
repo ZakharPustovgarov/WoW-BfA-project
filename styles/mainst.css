@@ -36,6 +36,8 @@ background-color: black;}
                 width: auto;}
 .inf2 p:hover + div img {width: auto;
                         height: 100%;}
+.hoverable {border: 3px white solid;
+                border-radius: 9px;}
 
 
 .fraction {width:50%; height:auto;} 

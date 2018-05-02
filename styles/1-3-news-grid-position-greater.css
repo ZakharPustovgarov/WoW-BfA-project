@@ -11,3 +11,5 @@
                         grid-column-gap: 7px;}
 div.inf div img:hover {transform: scale(1.7);
         transition-duration: 1s}
+.hoverable {border: 3px white solid;
+        border-radius: 9px;}

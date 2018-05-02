@@ -1,4 +1,4 @@
-div.cont div img {
+div.cont div img:not(.hoverable) {
     height:auto;
     border:4px solid black;
     border-radius: 6px;}
