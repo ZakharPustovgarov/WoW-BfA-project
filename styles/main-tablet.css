@@ -26,9 +26,9 @@
                         width:96%;}
 .inf2 p:hover + .alliesHorde{left: 1%;
                             height:60%;
-                            width:68%;}
-.inf2 p:hover + .alliesAlliance{left: 29%;
+}
+.inf2 p:hover + .alliesAlliance{left: 40%;
                                 height:60%;
-                                width:68%;}
+}
 .prepurch img{width:40%;}
 .circle {width:50%;}

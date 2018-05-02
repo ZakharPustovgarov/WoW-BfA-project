@@ -32,7 +32,8 @@ background-color: black;}
                 position: absolute;
                 background-color: black;
                 border: 4px black solid;
-                border-radius: 6px;}
+                border-radius: 6px;
+                width: auto;}
 .inf2 p:hover + div img {width: auto;
                         height: 100%;}
 
